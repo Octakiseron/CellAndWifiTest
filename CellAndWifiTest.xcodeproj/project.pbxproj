@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17ED9EA026EE8A3F04D60339 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 349D303408628EEEC9D95B4A /* libPods.a */; };
+		633882641BC7C444003880CB /* IJReachability Monitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633882621BC7C444003880CB /* IJReachability Monitoring.swift */; };
+		633882651BC7C444003880CB /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633882631BC7C444003880CB /* IJReachability.swift */; };
+		6386B4BD1BC7917700502AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386B4BC1BC7917700502AE9 /* AppDelegate.swift */; };
+		6386B4BF1BC7917700502AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386B4BE1BC7917700502AE9 /* ViewController.swift */; };
+		6386B4C21BC7917700502AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6386B4C01BC7917700502AE9 /* Main.storyboard */; };
+		6386B4C41BC7917700502AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6386B4C31BC7917700502AE9 /* Images.xcassets */; };
+		6386B4C71BC7917700502AE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6386B4C51BC7917700502AE9 /* LaunchScreen.xib */; };
+		6386B4D31BC7917700502AE9 /* CellAndWifiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386B4D21BC7917700502AE9 /* CellAndWifiTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6386B4CD1BC7917700502AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6386B4AF1BC7917700502AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6386B4B61BC7917700502AE9;
+			remoteInfo = CellAndWifiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349D303408628EEEC9D95B4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		633882621BC7C444003880CB /* IJReachability Monitoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IJReachability Monitoring.swift"; sourceTree = "<group>"; };
+		633882631BC7C444003880CB /* IJReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJReachability.swift; sourceTree = "<group>"; };
+		63539B081BC7CA19003D7F8E /* CellAndWifiTest-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CellAndWifiTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		6386B4B71BC7917700502AE9 /* CellAndWifiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellAndWifiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6386B4BB1BC7917700502AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6386B4BC1BC7917700502AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6386B4BE1BC7917700502AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6386B4C11BC7917700502AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6386B4C31BC7917700502AE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6386B4C61BC7917700502AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6386B4CC1BC7917700502AE9 /* CellAndWifiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellAndWifiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6386B4D11BC7917700502AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6386B4D21BC7917700502AE9 /* CellAndWifiTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAndWifiTestTests.swift; sourceTree = "<group>"; };
+		784A36E5B05670BF7156964A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EC0A3C69E779318E9687D5AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6386B4B41BC7917700502AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ED9EA026EE8A3F04D60339 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6386B4C91BC7917700502AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6386B4AE1BC7917700502AE9 = {
+			isa = PBXGroup;
+			children = (
+				6386B4B91BC7917700502AE9 /* CellAndWifiTest */,
+				6386B4CF1BC7917700502AE9 /* CellAndWifiTestTests */,
+				6386B4B81BC7917700502AE9 /* Products */,
+				DA116B9CDE08B57C94C84FD7 /* Pods */,
+				6C78FCB7BDDE75D46574C359 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6386B4B81BC7917700502AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6386B4B71BC7917700502AE9 /* CellAndWifiTest.app */,
+				6386B4CC1BC7917700502AE9 /* CellAndWifiTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6386B4B91BC7917700502AE9 /* CellAndWifiTest */ = {
+			isa = PBXGroup;
+			children = (
+				633882621BC7C444003880CB /* IJReachability Monitoring.swift */,
+				633882631BC7C444003880CB /* IJReachability.swift */,
+				6386B4BC1BC7917700502AE9 /* AppDelegate.swift */,
+				6386B4BE1BC7917700502AE9 /* ViewController.swift */,
+				6386B4C01BC7917700502AE9 /* Main.storyboard */,
+				6386B4C31BC7917700502AE9 /* Images.xcassets */,
+				6386B4C51BC7917700502AE9 /* LaunchScreen.xib */,
+				6386B4BA1BC7917700502AE9 /* Supporting Files */,
+			);
+			path = CellAndWifiTest;
+			sourceTree = "<group>";
+		};
+		6386B4BA1BC7917700502AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6386B4BB1BC7917700502AE9 /* Info.plist */,
+				63539B081BC7CA19003D7F8E /* CellAndWifiTest-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6386B4CF1BC7917700502AE9 /* CellAndWifiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6386B4D21BC7917700502AE9 /* CellAndWifiTestTests.swift */,
+				6386B4D01BC7917700502AE9 /* Supporting Files */,
+			);
+			path = CellAndWifiTestTests;
+			sourceTree = "<group>";
+		};
+		6386B4D01BC7917700502AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6386B4D11BC7917700502AE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C78FCB7BDDE75D46574C359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				349D303408628EEEC9D95B4A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA116B9CDE08B57C94C84FD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A3C69E779318E9687D5AC /* Pods.debug.xcconfig */,
+				784A36E5B05670BF7156964A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6386B4B61BC7917700502AE9 /* CellAndWifiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6386B4D61BC7917700502AE9 /* Build configuration list for PBXNativeTarget "CellAndWifiTest" */;
+			buildPhases = (
+				B9EDC1AE1BA308B22AA4DEF4 /* Check Pods Manifest.lock */,
+				6386B4B31BC7917700502AE9 /* Sources */,
+				6386B4B41BC7917700502AE9 /* Frameworks */,
+				6386B4B51BC7917700502AE9 /* Resources */,
+				92AC6D908448DD52CB82FBF8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellAndWifiTest;
+			productName = CellAndWifiTest;
+			productReference = 6386B4B71BC7917700502AE9 /* CellAndWifiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6386B4CB1BC7917700502AE9 /* CellAndWifiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6386B4D91BC7917700502AE9 /* Build configuration list for PBXNativeTarget "CellAndWifiTestTests" */;
+			buildPhases = (
+				6386B4C81BC7917700502AE9 /* Sources */,
+				6386B4C91BC7917700502AE9 /* Frameworks */,
+				6386B4CA1BC7917700502AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6386B4CE1BC7917700502AE9 /* PBXTargetDependency */,
+			);
+			name = CellAndWifiTestTests;
+			productName = CellAndWifiTestTests;
+			productReference = 6386B4CC1BC7917700502AE9 /* CellAndWifiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6386B4AF1BC7917700502AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = KnowIT;
+				TargetAttributes = {
+					6386B4B61BC7917700502AE9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = KU59U2XJAT;
+					};
+					6386B4CB1BC7917700502AE9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6386B4B61BC7917700502AE9;
+					};
+				};
+			};
+			buildConfigurationList = 6386B4B21BC7917700502AE9 /* Build configuration list for PBXProject "CellAndWifiTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6386B4AE1BC7917700502AE9;
+			productRefGroup = 6386B4B81BC7917700502AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6386B4B61BC7917700502AE9 /* CellAndWifiTest */,
+				6386B4CB1BC7917700502AE9 /* CellAndWifiTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6386B4B51BC7917700502AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6386B4C21BC7917700502AE9 /* Main.storyboard in Resources */,
+				6386B4C71BC7917700502AE9 /* LaunchScreen.xib in Resources */,
+				6386B4C41BC7917700502AE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6386B4CA1BC7917700502AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92AC6D908448DD52CB82FBF8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EDC1AE1BA308B22AA4DEF4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6386B4B31BC7917700502AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6386B4BF1BC7917700502AE9 /* ViewController.swift in Sources */,
+				6386B4BD1BC7917700502AE9 /* AppDelegate.swift in Sources */,
+				633882641BC7C444003880CB /* IJReachability Monitoring.swift in Sources */,
+				633882651BC7C444003880CB /* IJReachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6386B4C81BC7917700502AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6386B4D31BC7917700502AE9 /* CellAndWifiTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6386B4CE1BC7917700502AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6386B4B61BC7917700502AE9 /* CellAndWifiTest */;
+			targetProxy = 6386B4CD1BC7917700502AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6386B4C01BC7917700502AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6386B4C11BC7917700502AE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6386B4C51BC7917700502AE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6386B4C61BC7917700502AE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6386B4D41BC7917700502AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6386B4D51BC7917700502AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6386B4D71BC7917700502AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0A3C69E779318E9687D5AC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CellAndWifiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/holloway/Documents/CellAndWifiTest/CellAndWifiTest/CellAndWifiTest-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		6386B4D81BC7917700502AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784A36E5B05670BF7156964A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CellAndWifiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/holloway/Documents/CellAndWifiTest/CellAndWifiTest/CellAndWifiTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6386B4DA1BC7917700502AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CellAndWifiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellAndWifiTest.app/CellAndWifiTest";
+			};
+			name = Debug;
+		};
+		6386B4DB1BC7917700502AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CellAndWifiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellAndWifiTest.app/CellAndWifiTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6386B4B21BC7917700502AE9 /* Build configuration list for PBXProject "CellAndWifiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6386B4D41BC7917700502AE9 /* Debug */,
+				6386B4D51BC7917700502AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6386B4D61BC7917700502AE9 /* Build configuration list for PBXNativeTarget "CellAndWifiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6386B4D71BC7917700502AE9 /* Debug */,
+				6386B4D81BC7917700502AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6386B4D91BC7917700502AE9 /* Build configuration list for PBXNativeTarget "CellAndWifiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6386B4DA1BC7917700502AE9 /* Debug */,
+				6386B4DB1BC7917700502AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6386B4AF1BC7917700502AE9 /* Project object */;
+}
